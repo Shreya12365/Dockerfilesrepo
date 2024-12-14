@@ -1,0 +1,4 @@
+### to install or cpnfigure some packages we use run command
+
+FROM almalinux:8
+RUN yum install nginx -y
