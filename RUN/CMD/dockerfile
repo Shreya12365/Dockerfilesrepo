@@ -1,0 +1,5 @@
+### cmd is used to run containers
+
+FROM almalinux:8
+RUN yum install ngnix -y
+CMD ["nginx", "-g", "daemon off:"] 
