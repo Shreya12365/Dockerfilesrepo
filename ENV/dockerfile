@@ -1,0 +1,6 @@
+### ENV can provide configuration details to any server if we store that details in ENV
+
+FROM almalinux:8
+ENV NAME=Riya \
+    AGE=20 \
+    ADDRESS=Blr 
