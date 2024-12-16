@@ -1,1 +1,3 @@
+### FROM is used to represent which OS need to use
+
 FROM centos:8
