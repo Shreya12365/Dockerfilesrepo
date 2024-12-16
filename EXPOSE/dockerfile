@@ -1,0 +1,6 @@
+### EXpose is not adding any functionality, it is to get to know about the port used by image
+
+FROM almalinux:8
+RUN yum install nginx -y
+EXPOSE 80/tcp
+CMD ["nginx", "-g", "daemon off;"] 
