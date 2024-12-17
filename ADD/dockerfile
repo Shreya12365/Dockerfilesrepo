@@ -1,2 +1,4 @@
+### ADD local and remote files to directories
+
 FROM almalinux:8
 add hello.txt /tmp/
