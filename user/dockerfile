@@ -2,3 +2,6 @@ FROM almalinux
 RUN useradd Ravi
 USER Ravi
 RUN echo "Hello Docker" > /tmp/hello.txt
+
+### USER intrustion is used to restrict docker files from root access
+### basically all docker files will take root acess, to restuct that we use User restriction
