@@ -1,0 +1,2 @@
+FROM almalinux
+RUN echo "Hello Docker" > /tmp/hello.txt
