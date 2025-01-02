@@ -1,3 +1,5 @@
 ARG version
-FROM almalinux:${version}
-RUN echo "version passed by user is: ${version}"
+FROM almalinux:${version:-8}
+ARG COURSE
+ARG TRAINER
+RUN echo "course is: ${COURSE}, trainer is: ${TRAINER}"
